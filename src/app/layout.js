@@ -8,8 +8,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" className="dark">
+      <body className="bg-gradient-to-br from-bg-primary via-bg-secondary to-bg-tertiary min-h-screen">
         <ErrorBoundary>{children}</ErrorBoundary>
       </body>
     </html>
