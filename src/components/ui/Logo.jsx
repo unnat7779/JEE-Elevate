@@ -47,7 +47,7 @@ const Logo = ({ size = "md", showText = true, className = "", variant = "default
       {showText && (
         <div className="flex flex-col">
           <span className={cn("font-bold tracking-tight leading-none", sizes[size].text, variants[variant])}>
-            JEEElevate
+            JEE Elevate
           </span>
           <span
             className={cn(
@@ -55,7 +55,7 @@ const Logo = ({ size = "md", showText = true, className = "", variant = "default
               variant === "light" ? "text-slate-600" : "text-slate-400",
             )}
           >
-            Let's Ace JEE Together
+            Let's Elevate JEE Together
           </span>
         </div>
       )}
